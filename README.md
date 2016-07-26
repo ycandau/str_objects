@@ -1,10 +1,9 @@
-# Lobjects
-A series of Max externals to manipulate lists.
+# str_objects
+A series of Max externals to manipulate strings.
 
-The original externals are by Peter Elsea.
+The original externals are by Jan Schacher.
 Refactored by Yves Candau.
 
 Main differences:
   - The externals use the new Max style and attributes.
-  - The arrays to store lists and messages are resizable.
-  - Non int, float or list messages can be processed (starting with a symbol).
+  - The strings are dynamically resized.
